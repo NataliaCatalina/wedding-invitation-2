@@ -423,7 +423,7 @@ function filterByWord(word){
                                '<h2 class="card-title font-weight-bold">' + ' ' + '<span class="text-primary">' + gifts[j].item + '</span> <br></h2>' +
                                '<p class="card-text text-dark">By : ' + ' ' + '<span class="text-primary">' + gifts[j].by + '</span> <br></p>' +
                                '<h3 class="card-text text-dark font-weight-bold">'+ gifts[j].price + '</h3>' +
-                               '<button id="' + gifts[j].id + '" type="button" class="btn btn-primary bg-secondary moreDetails" data-toggle="modal" data-target="#exampleModal">More Detail' + '</button>' +
+                               '<button id="' + gifts[j].id + '" type="button" class="btn btn-primary bg-secondary moreDetails" data-bs-toggle="modal" data-bs-target="#exampleModal">More Detail' + '</button>' +
                               '</div>' +
                             '</div>' +
                         '</div>'
