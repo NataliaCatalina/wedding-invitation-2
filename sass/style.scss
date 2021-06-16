@@ -1,0 +1,73 @@
+$primary: #86A6A0;
+$secondary: #d3e3e0;
+$success: #FFFAFA;
+$info: #A8BFBB;
+$danger: #BFA4A4;
+
+$display1-size : 5rem;
+$display2-size : 4rem;
+$display3-size : 3rem;
+$display4-size : 2rem;
+
+@import "../bootstrap-4.5.3/scss/bootstrap.scss";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+background-image: url("../images/background4.jpg");
+background-size: cover;
+width: 100%;
+}
+
+//home
+
+.couplePhoto{
+width: 22%;
+animation-name: pulse;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+.cardHome{
+  width: 80%;
+  margin-bottom: 180px;
+}
+
+.big-tittle {
+  font-family: 'Zeyada', cursive;
+}
+
+.date{
+  font-size: 27px;
+}
+
+//rsvp
+#rsvp {
+  top: 400px;
+}
+
+
+//giftList
+.searchIcon{
+  width: 80px;
+  height:80px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+}
+
+.flower-footer{
+  width: 100%;
+}
